@@ -11,6 +11,9 @@
   "license": "MIT",
   "icon": "assets/trustedtravelfabric/icon.png",
   "environment": "server",
+  "mixins": [
+    "trustedtravelfabric.mixins.json"
+  ],
   "entrypoints": {
     "server": [
       "me.lukasabbe.trustedtravelfabric.TrustedTravelFabric"
