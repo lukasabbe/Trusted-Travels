@@ -16,6 +16,10 @@ servers:
     port: <port for server, Minecraft default port is 25565>
 ```
 
+On Paper servers the config file is located under `plugins/TrustedTravelPlugin/`.
+
+On Fabric servers the config file is located under `config/`.
+
 # Commands
 
 ```
