@@ -26,7 +26,7 @@ public class Config {
     }
 
     private void createAndLoadConfig() throws FileNotFoundException {
-        Path configPath = FabricLoader.getInstance().getConfigDir().resolve("servers.yml");
+        Path configPath = FabricLoader.getInstance().getConfigDir().resolve("config.yml");
         if(!Files.exists(configPath)) createConfigFile(configPath);
 
         Yaml yaml = new Yaml();
